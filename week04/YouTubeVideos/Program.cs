@@ -1,3 +1,49 @@
+using System;
+using System.Collections.Generic;
+
+public class Comment
+{
+    public string CommenterName { get; }
+    public string Text { get; }
+
+    public Comment(string commenterName, string text)
+    {
+        CommenterName = commenterName;
+        Text = text;
+    }
+}
+
+public class Video
+{
+    public string Title { get; }
+    public string Author { get; }
+    public int LengthInSeconds { get; }
+    private List<Comment> comments;
+
+    public Video(string title, string author, int lengthInSeconds)
+    {
+        Title = title;
+        Author = author;
+        LengthInSeconds = lengthInSeconds;
+        comments = new List<Comment>();
+    }
+
+    public void AddComment(Comment comment)
+    {
+        comments.Add(comment);
+    }
+
+    public List<Comment> GetComments()
+    {
+        return comments;
+    }
+
+    public int GetNumberOfComments()
+    {
+        return comments.Count;
+    }
+}
+
 public class Program
 {
     public static void Main(string[] args)
@@ -5,17 +51,17 @@ public class Program
         // Create a list to hold videos
         List<Video> videos = new List<Video>();
 
-        // Create 3-4 videos
-        Video video1 = new Video("Understanding Abstraction", "John Doe", 300);
+        // Create 3-4 videos with Zimbabwean themes
+        Video video1 = new Video("Understanding Ubuntu Philosophy", "Tendai Moyo", 300);
         video1.AddComment(new Comment("Alice", "Great explanation!"));
         video1.AddComment(new Comment("Bob", "I learned a lot."));
         video1.AddComment(new Comment("Charlie", "Thanks for this!"));
 
-        Video video2 = new Video("Introduction to OOP", "Jane Smith", 450);
+        Video video2 = new Video("Introduction to Shona Culture", "Chipo Ndlovu", 450);
         video2.AddComment(new Comment("David", "Very helpful!"));
         video2.AddComment(new Comment("Eve", "Nice overview."));
         
-        Video video3 = new Video("C# Basics", "Mike Johnson", 600);
+        Video video3 = new Video("Basics of Zimbabwean Cuisine", "Mike Johnson", 600);
         video3.AddComment(new Comment("Frank", "Good content!"));
         video3.AddComment(new Comment("Grace", "Looking forward to more!"));
         video3.AddComment(new Comment("Heidi", "Well explained."));
