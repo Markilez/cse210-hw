@@ -7,7 +7,7 @@ public class BreathingActivity : Activity
         description = "This activity will help you relax by walking you through breathing in and out slowly.";
     }
 
-    public void Run()
+    public override void Run() // Use override to extend the base Run() method
     {
         StartActivity();
         DateTime endTime = DateTime.Now.AddSeconds(duration);

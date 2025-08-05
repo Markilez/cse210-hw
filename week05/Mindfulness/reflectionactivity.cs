@@ -33,7 +33,7 @@ public class ReflectionActivity : Activity
         return new Queue<string>(shuffledPrompts);
     }
 
-    public void Run()
+    public override void Run() // Use override to extend the base Run() method
     {
         StartActivity();
         string prompt = prompts.Dequeue();

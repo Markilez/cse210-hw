@@ -1,0 +1,15 @@
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\bin\Debug\net8.0\Mindfulness.exe
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\bin\Debug\net8.0\Mindfulness.deps.json
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\bin\Debug\net8.0\Mindfulness.runtimeconfig.json
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\bin\Debug\net8.0\Mindfulness.dll
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\bin\Debug\net8.0\Mindfulness.pdb
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.AssemblyInfoInputs.cache
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.AssemblyInfo.cs
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.csproj.CoreCompileInputs.cache
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.sourcelink.json
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.dll
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\refint\Mindfulness.dll
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.pdb
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\Mindfulness.genruntimeconfig.cache
+C:\Users\Courage Mlambo\Desktop\cse210-hw\week05\Mindfulness\obj\Debug\net8.0\ref\Mindfulness.dll
